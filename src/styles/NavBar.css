@@ -1,0 +1,47 @@
+.navbar-container{
+    height: 7vw;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left-section{
+    display: flex;
+    margin-top: 1vw;
+}
+.navbar-cart-section{
+    display: flex;
+    margin-top: 1vw;
+}
+
+.navbar-logo-section{
+    height: 7vw;
+    width: 10vw;
+    background-color: azure;
+}
+
+.navbar-menu-section{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-menu-item{
+    color: grey;
+    margin-left: 2vw;
+}
+
+.navbar-menu-item{
+    list-style: none;
+}
+
+.nav-signup{
+    height: 5vw;
+    width: 7vw;
+    border-radius: .5vw;
+    background-color: blue;
+}
+
+.full-container{
+    display: flex;
+}

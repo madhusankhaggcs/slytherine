@@ -1,0 +1,82 @@
+/* Course Card Styles */
+
+.course-card-container{
+    display: flex;
+    height: auto;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.course-card-content{
+    height: auto;
+    width: 250px;
+    background-color: bisque;
+    margin-left: 2rem;
+}
+
+.course-card-content:hover + .course-card-description-content{
+    opacity: 1;
+}
+.course-card-description-content:hover{
+    opacity: 1;
+}
+
+.course-card-img-content{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.course-card-title{
+    font-style: bold;
+    font-size: 18px;
+    text-align: left;
+    overflow: wrap;
+}
+
+.related-course-card{
+    height: 30px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.related-course-card-title{
+    padding: 5px;
+    border-radius: 8px;
+}
+.course-card-description-content{
+    position: absolute;
+    max-width: 300px;
+    background-color: rgb(217, 189, 243);
+    opacity: 0;
+}
+
+/* Dashoard Card Styles */
+
+.dashboard-card-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard-card{
+    height: 250px;
+    width: 200px;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+}
+
+.side-nav-bar{
+    height: 600px;
+    width: 30%;
+    background-color: rgb(134, 134, 173);
+}
+
+.body-content{
+    height: auto;
+    width: 70%;
+    background-color: rgb(78, 155, 155);
+}
