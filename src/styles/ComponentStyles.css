@@ -1,0 +1,197 @@
+/* Course Card Styles */
+
+.course-card-container{
+    display: flex;
+    height: auto;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.course-card-content{
+    height: auto;
+    width: 250px;
+    margin-left: 2rem;
+}
+
+.course-card-content:hover + .course-card-description-content{
+    opacity: 1;
+}
+.course-card-description-content:hover{
+    opacity: 1;
+}
+
+.course-card-img-content, .course-card-img{
+    width: 100%;
+    height: 150px;
+}
+
+.course-card-title{
+    font-style: bold;
+    font-size: 18px;
+    text-align: left;
+    overflow: wrap;
+}
+
+.related-course-content{
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    width: 100%;
+}
+.related-course-content::-webkit-scrollbar, .course-card-container::-webkit-scrollbar {
+    display: none;
+  }
+.related-course-card{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    border: solid black 1px;
+    box-shadow: 0px 1px rgb(110, 109, 109);
+    margin-left: 4vw;
+}
+
+.course-card-description-content{
+    position: absolute;
+    max-width: 300px;
+    background-color: #A8C2C2;
+    opacity: 0;
+    margin-left: 15%;
+    bottom: 21%;
+    padding: 15px;
+}
+.course-card-rating-content{
+    display: flex;
+    color: rgb(255, 196, 0);
+}
+.rating-star-set{
+    color: rgb(255, 196, 0);
+    margin-left: 2vw;
+}
+
+
+.course-container-tab-bar-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.course-card-add-to-cart-btn{
+    background-color: blueviolet;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 6vw;
+}
+.course-card-add-to-cart-btn:hover{
+    opacity: 0.7;
+}
+
+/* Shopping Cart Card Styles */
+.shopping-cart-card-container{
+    height: 150px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px grey;
+    display: flex;
+    margin-top: 40px;
+}
+.shopping-cart-card-course-content{
+    height: 100%;
+    width: 20%;
+}
+.shopping-cart-card-course-img{
+    height: 120px;
+    width:170px;
+    margin-left: 1rem;
+}
+.shopping-cart-card-course-detail{
+    height: 100%;
+    width: 30%;
+    margin-left: 2rem;
+}
+.shopping-cart-card-course-price{
+    height: 100%;
+    width: 25%;
+    margin-left: 5rem;
+}
+.shopping-cart-card-course-total-price{
+    height: 100%;
+    width: 25%;
+}
+.shopping-cart-card-checkout-btn{
+    margin-right: 2rem;
+    padding: 14px;
+    background-color: #4b8ac8;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: .8vw;
+    margin-top: 3rem;
+    float: right;
+}
+
+.shopping-cart-card-checkout{
+    height: 150px;
+    width: 100%;
+}
+
+/* Course Info Card Styles */
+.course-info-card{
+    height: auto;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px grey;
+}
+
+.course-info-card-content{
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(115, 146, 108);
+    padding: 1px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* User Course Info Styles */
+.course-info-full-screen{
+    height: 50vw;
+    width: 100%;
+}
+
+.course-info-content{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.course-info-completed{
+    height: 100%;
+    width: 50%;
+    margin-left: 8rem;
+}
+.course-info-ongoing{
+    height: 100%;
+    width: 50%;
+}
+
+.teacher-dah-course-card{
+    padding-top: 2rem;
+    height:280px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    box-shadow: 0.5px 0.5px 2px 2px grey;
+}
